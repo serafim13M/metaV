@@ -1,0 +1,105 @@
+@media (max-width: 1024px) {
+  #dodo {
+    .dodo {
+      .dodo-klamp img {
+        max-width: 360px;
+        width: 100%;
+      }
+    }
+  }
+  .mongo {
+    .mongo {
+      .mongo-boxs {
+        max-width: 350px;
+      }
+    }
+  }
+  #meta {
+    .meta {
+      img {
+        max-width: 360px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    .header {
+      .header-ai {
+        display: none;
+      }
+      .header-icon {
+        display: block;
+      }
+    }
+  }
+  #dodo {
+    .dodo-klamp {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  #meta {
+    .meta {
+      flex-direction: column-reverse;
+      text-align: center;
+      position: relative;
+      .meta-works {
+        align-items: center;
+      }
+    }
+  }
+  #fool {
+    .fool {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #meta {
+    .meta {
+      flex-direction: column-reverse;
+      align-items: center;
+      .meta-works {
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+
+  #dodo {
+    .dodo {
+      .dodo-klamp {
+        img {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+  #fool {
+    .fool-bor {
+      img {
+        max-width: 400px;
+      }
+    }
+  }
+  #mongo {
+    .mongo-start {
+      mongo-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+@media (max-width: 468px) {
+  #mongo {
+    .mongo {
+      mongo-boxs {
+        align-items: center;
+      }
+    }
+  }
+}
