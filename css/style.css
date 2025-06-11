@@ -60,6 +60,7 @@ h5 {
 button {
   font-size: clamp(0.688rem, 0.476rem + 0.97vw, 1.25rem);
   font-weight: 500px;
+  padding: 8px 15px;
 }
 
 /* Header */
